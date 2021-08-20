@@ -13,15 +13,27 @@ or create your own from the same machine:</br>
 ```
 Export-StartLayout C:\Temp\layout2.xml
 ```
- # Re-Creating Template:  </br>
- using VSCODE for excellent format retention: </br> sample below but file attached. snippets don't handle xml very well
+ # Re-Creating Template:</br>
+ using VSCODE for excellent format retention: </br> 
+ sample below but file attached. snippets don't handle xml very well </br>
+ our main goal is edit our targets between the TaskBarPinList </br>
  ![image](https://user-images.githubusercontent.com/44326428/130301619-d2a58f25-2f7e-490c-a418-d9b081493ce7.png)
 
- 
- 
- 
-  
+ At the end it should look like this, considering we have the path towards c:\temp </br>
+ ![image](https://user-images.githubusercontent.com/44326428/130301959-2f93573b-bcf3-4132-a481-cb265b91ef4b.png)
 
+# Applying the template: (Method 1. single Machine, This needs to be as Admin) </br>
+ ```
+ Import-StartLayout C:\Temp\layout.xml -MountPath c:\
+ ```
+ # Applying the template: (Method 2. GPO) </br>
+ ![image](https://user-images.githubusercontent.com/44326428/130302215-af510ae8-c58e-4910-a712-dc4d2c717390.png)
+
+# Applying the template: (Method 2. GPO) </br>
+https://nathanblasac.com/deploy-a-custom-start-layout-configuration-policy-via-intune-windows-10-1809-a4ed72875c08
+
+# Final Replication
+Restart the system
   
 
 

@@ -31,3 +31,48 @@ export-startlayout
 
 
 
+TEMPLATE
+```
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<LayoutModificationTemplate Version="1" xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
+
+
+-<CustomTaskbarLayoutCollection>
+
+
+-<defaultlayout:TaskbarLayout>
+
+
+-<taskbar:TaskbarPinList>
+
+<taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Paint.lnk"/>
+
+<taskbar:UWA AppUserModelID="Microsoft.Reader_8wekyb3d8bbwe!Microsoft.Reader"/>
+
+<taskbar:DesktopApp DesktopApplicationLinkPath="%appdata%\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk"/>
+
+<taskbar:DesktopApp DesktopApplicationLinkPath="%appdata%\Microsoft\Windows\Start Menu\Programs\System Tools\Calc.lnk"/>
+
+<taskbar:DesktopApp DesktopApplicationLinkPath="%appdata%\Microsoft\Windows\Start Menu\Programs\System Tools\notepad.lnk"/>
+
+<taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\WinSCP.lnk"/>
+
+<taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\onedrive.lnk"/>
+
+<taskbar:DesktopApp DesktopApplicationLinkPath="%C:\Temp\services.lnk"/>
+
+<taskbar:DesktopApp DesktopApplicationLinkPath="%C:\Temp\lyrSucks.lnk"/>
+
+</taskbar:TaskbarPinList>
+
+</defaultlayout:TaskbarLayout>
+
+</CustomTaskbarLayoutCollection>
+
+</LayoutModificationTemplate>
+```
+
+
+
+

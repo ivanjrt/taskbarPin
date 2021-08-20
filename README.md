@@ -29,7 +29,7 @@ Export-StartLayout C:\Temp\layout2.xml
  # Applying the template: (Method 2. GPO) </br>
  ![image](https://user-images.githubusercontent.com/44326428/130302215-af510ae8-c58e-4910-a712-dc4d2c717390.png)
 
-# Applying the template: (Method 2. GPO) </br>
+# Applying the template: (Method 3. MDM -No tested) </br>
 https://nathanblasac.com/deploy-a-custom-start-layout-configuration-policy-via-intune-windows-10-1809-a4ed72875c08
 
 # Final Replication

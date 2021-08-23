@@ -8,8 +8,8 @@
 * To Invoke files with dependencies: create a shortcut sintax like so: program.exe "archivelocation.txt" </br>
 ![image](https://user-images.githubusercontent.com/44326428/130301274-b2ecd270-88f2-403f-a55f-44437cf9ef29.png)
 
-# Creating a new Template: if you get it from a good resource </br>
-or create your own from the same machine:</br>  
+# Creating a new Template: </br>
+if you get it from a good resource or create your own from the same machine:</br>  
 ```
 Export-StartLayout C:\Temp\layout2.xml
 ```
@@ -17,9 +17,10 @@ Export-StartLayout C:\Temp\layout2.xml
  using VSCODE for excellent format retention: </br> 
  sample below but file attached. snippets don't handle xml very well </br>
  our main goal is edit our targets between the TaskBarPinList </br>
+ *   Rule of thumb, once created the xml, open it and if its able to open in IE, it should be able to show the content
  ![image](https://user-images.githubusercontent.com/44326428/130301619-d2a58f25-2f7e-490c-a418-d9b081493ce7.png)
 
- At the end it should look like this, considering we have the path towards c:\temp </br>
+ At the end it should look like this, considering we have the path towards c:\temp . Also aditional xml samples</br>
  ![image](https://user-images.githubusercontent.com/44326428/130301959-2f93573b-bcf3-4132-a481-cb265b91ef4b.png)
 
 # Applying the template: (Method 1. single Machine, This needs to be as Admin) </br>
@@ -28,6 +29,9 @@ Export-StartLayout C:\Temp\layout2.xml
  ```
  # Applying the template: (Method 2. GPO) </br>
  ![image](https://user-images.githubusercontent.com/44326428/130302215-af510ae8-c58e-4910-a712-dc4d2c717390.png)
+ ![image](https://user-images.githubusercontent.com/44326428/130521929-12b926fb-6b55-4bb3-9922-56e41a771b7b.png)
+ ![image](https://user-images.githubusercontent.com/44326428/130521424-b66bf516-a2c1-4061-a4b8-ca6193a0e459.png)
+
 
 # Applying the template: (Method 3. MDM -No tested) </br>
 https://nathanblasac.com/deploy-a-custom-start-layout-configuration-policy-via-intune-windows-10-1809-a4ed72875c08
